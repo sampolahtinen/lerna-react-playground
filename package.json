@@ -1,0 +1,39 @@
+{
+  "name": "lerna-react-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "lerna run build --stream",
+    "build:types": "lerna run build:types",
+    "clean": "lerna run clean --parallel",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/core/*",
+      "packages/ui/*"
+    ]
+  },
+  "private": "true",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@storybook/addon-actions": "^6.3.4",
+    "@storybook/addon-essentials": "^6.3.4",
+    "@storybook/addon-links": "^6.3.4",
+    "@storybook/react": "^6.3.4",
+    "@types/styled-components": "^5.1.11",
+    "babel-loader": "^8.2.2",
+    "lerna": "^4.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.53.0",
+    "styled-components": "^5.3.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {}
+}
