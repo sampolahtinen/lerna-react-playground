@@ -1,25 +1,24 @@
 import React from 'react'
 import styled from 'styled-components'
 
-export type ViewProps = {
+export type ContainerProps = {
   className?: string,
 }
 
-export const View: React.FC<ViewProps> = ({
+export const Container: React.FC<ContainerProps> = ({
   className,
   children
 }) => (
-  <StyledView className={className}>
+  <StyledContainer className={className}>
     {children}
-  </StyledView>
+  </StyledContainer>
 )
 
-const StyledView = styled.div`
+const StyledContainer = styled.div`
   position: relative;
   box-sizing: border-box;
-  width: 100vw;
-  min-height: 100vh;
-  overflow: hidden;
-  margin: 0;
-  padding: 0
+  background: #00000059;
+  width: 500px;
+  min-height: 500px;
+  padding: 32px;
 `

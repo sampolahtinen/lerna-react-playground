@@ -5,8 +5,9 @@
     "esModuleInterop": true,
     "allowJs": false,
     "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
     "jsx": "react",
-    "module": "commonjs",
+    "module": "ESNext",
     "noEmit": false,
     "composite": true
   }

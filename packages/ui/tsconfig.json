@@ -3,14 +3,14 @@
   "compilerOptions": {
     "outDir": "dist",
     "rootDir": "src",
-    "target": "ES2019",
-    "lib": [ "dom", "ES2019"]
+    "declarationDir": "dist/types"
   },
-  "references": [
-    { "path":  "../core" }
-  ],
   "include": ["src"],
+  "references": [
+    {"path": "../core"}
+  ],
   "exclude": [
+    "src/*.stories.tsx",
     "node_modules",
     "dist"
   ]

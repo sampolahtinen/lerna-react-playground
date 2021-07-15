@@ -9,7 +9,7 @@ import { View, ViewProps } from './View';
 
 //👇 This default export determines where your story goes in the story list
 export default {
-  title: 'packages/core',
+  title: 'packages/ui',
   component: View,
 } as Meta;
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Container } from './Container'
-import { Text, Butotn } from '@monorepo/core'
+import { Text, Button } from '@monorepo/core'
 
 export type ViewProps = {
   className?: string,
@@ -9,7 +9,6 @@ export type ViewProps = {
 
 export const View: React.FC<ViewProps> = ({
   className,
-  children
 }) => {
   const handleClick = () => console.log('clicked!')
 

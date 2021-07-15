@@ -1,18 +1,28 @@
 {
   "name": "@monorepo/ui",
   "version": "1.0.0",
-  "main": "dist/index.js",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.esm.js",
   "types": "dist/types/index.d.ts",
   "files": [
     "dist"
   ],
+  "directories": {
+    "lib": "dist"
+  },
   "private": true,
   "scripts": {
-    "build": "tsc -b",
-    "clean": "rm -rf ./dist && rm tsconfig.tsbuildinfo",
-    "build:types": "tsc --emitDeclarationOnly --declaration --declarationDir dist/types"
+    "clean": "rm -rf ./dist",
+    "build:types": "tsc --emitDeclarationOnly --declaration --declarationDir dist/types",
+    "build:rollup": "yarn clean && rollup -c",
+    "build": "rollup -c",
+    "yarn": "yarn"
   },
   "dependencies": {
-    "@monorepo/core": "^1.0.0"
+    "@monorepo/core": "1.0.0"
+  },
+  "peerDependencies": {
+    "react": "17.x",
+    "styled-components": "5.x"
   }
 }
