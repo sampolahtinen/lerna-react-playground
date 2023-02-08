@@ -19,5 +19,8 @@
   "peerDependencies": {
     "react": "17.x",
     "styled-components": "5.x"
+  },
+  "dependencies": {
+    "@sampolahtinen/package2": "workspace:^1.0.0"
   }
 }
