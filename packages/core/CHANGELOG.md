@@ -1,5 +1,15 @@
 # @sampolahtinen/package1
 
+## 1.2.0-dev.0
+
+### Minor Changes
+
+- 8735bc6: Add Label component
+
+### Patch Changes
+
+- @sampolahtinen/package2@1.1.1-dev.0
+
 ## 1.1.0
 
 ### Minor Changes
