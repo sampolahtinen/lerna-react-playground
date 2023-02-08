@@ -1,5 +1,16 @@
 # @sampolahtinen/package1
 
+## 1.2.0
+
+### Minor Changes
+
+- 8735bc6: Add Label component
+- 9ac2b70: Add Accordion component
+
+### Patch Changes
+
+- @sampolahtinen/package2@1.1.1
+
 ## 1.2.0-dev.1
 
 ### Minor Changes

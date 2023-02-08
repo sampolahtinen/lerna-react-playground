@@ -1,5 +1,13 @@
 # @sampolahtinen/package2
 
+## 1.1.1
+
+### Patch Changes
+
+- Updated dependencies [8735bc6]
+- Updated dependencies [9ac2b70]
+  - @sampolahtinen/package1@1.2.0
+
 ## 1.1.1-dev.0
 
 ### Patch Changes
