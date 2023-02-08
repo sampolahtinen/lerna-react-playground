@@ -1,5 +1,5 @@
 import React from 'react';
-export declare type ButtonProps = {
+export type ButtonProps = {
     onClick: () => void;
     className?: string;
 };

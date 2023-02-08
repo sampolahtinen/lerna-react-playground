@@ -1,20 +1,9 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react";
 
 export type TextProps = {
-  className?: string,
-}
+  className?: string;
+};
 
-export const Text: React.FC<TextProps> = ({
-  className,
-  children
-}) => (
-  <StyledSpan className={className}>
-    {children}
-  </StyledSpan>
-)
-
-const StyledSpan = styled.span`
-  color: red;
-  font-size: 20px;
-`
+export const Text: React.FC<TextProps> = ({ className, children }) => (
+  <span className={className}>{children}</span>
+);
