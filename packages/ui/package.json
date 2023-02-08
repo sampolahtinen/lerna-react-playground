@@ -1,6 +1,6 @@
 {
   "name": "@sampolahtinen/package2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.umd.js",
   "module": "dist/index.esm.js",
   "types": "dist/types/index.d.ts",
@@ -19,7 +19,7 @@
     "yarn": "yarn"
   },
   "dependencies": {
-    "@sampolahtinen/package1": "workspace:^1.0.2"
+    "@sampolahtinen/package1": "workspace:^1.0.4"
   },
   "peerDependencies": {
     "react": "17.x",
