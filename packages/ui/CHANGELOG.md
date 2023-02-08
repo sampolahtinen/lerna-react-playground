@@ -1,5 +1,17 @@
 # @sampolahtinen/package2
 
+## 1.1.0
+
+### Minor Changes
+
+- 30537a2: Avatar component
+
+### Patch Changes
+
+- Updated dependencies [55f647d]
+- Updated dependencies [30537a2]
+  - @sampolahtinen/package1@1.1.0
+
 ## 1.0.1
 
 ### Patch Changes

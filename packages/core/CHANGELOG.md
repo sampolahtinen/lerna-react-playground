@@ -1,5 +1,17 @@
 # @sampolahtinen/package1
 
+## 1.1.0
+
+### Minor Changes
+
+- 55f647d: add Tag component
+- 30537a2: Avatar component
+
+### Patch Changes
+
+- Updated dependencies [30537a2]
+  - @sampolahtinen/package2@1.1.0
+
 ## 1.0.4
 
 ### Patch Changes
