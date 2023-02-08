@@ -5,5 +5,7 @@
     "@sampolahtinen/package1": "1.1.0",
     "@sampolahtinen/package2": "1.1.0"
   },
-  "changesets": []
+  "changesets": [
+    "olive-laws-taste"
+  ]
 }
