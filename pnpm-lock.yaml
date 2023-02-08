@@ -52,6 +52,12 @@ importers:
     dependencies:
       '@sampolahtinen/package2': link:../ui
 
+  packages/ui:
+    specifiers:
+      '@sampolahtinen/package1': workspace:^1.0.2
+    dependencies:
+      '@sampolahtinen/package1': link:../core
+
 packages:
 
   /@ampproject/remapping/2.2.0:

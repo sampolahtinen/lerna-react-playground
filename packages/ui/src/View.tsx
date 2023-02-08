@@ -1,28 +1,24 @@
-import React from 'react'
-import styled from 'styled-components'
-import { Container } from './Container'
-import { Text, Button } from '@monorepo/core'
+import { Button, Text } from "@sampolahtinen/package1";
+import React from "react";
+import styled from "styled-components";
+import { Container } from "./Container";
 
 export type ViewProps = {
-  className?: string,
-}
+  className?: string;
+};
 
-export const View: React.FC<ViewProps> = ({
-  className,
-}) => {
-  const handleClick = () => console.log('clicked!')
+export const View: React.FC<ViewProps> = ({ className }) => {
+  const handleClick = () => console.log("clicked!");
 
   return (
     <StyledView className={className}>
       <Container>
-        <Text>
-          Testing
-        </Text>
+        <Text>Testing</Text>
         <Button onClick={handleClick}>Button 1</Button>
       </Container>
     </StyledView>
-  )
-}
+  );
+};
 
 const StyledView = styled.div`
   position: relative;
@@ -34,5 +30,5 @@ const StyledView = styled.div`
   min-height: 100vh;
   overflow: hidden;
   margin: 0;
-  padding: 0
-`
+  padding: 0;
+`;
