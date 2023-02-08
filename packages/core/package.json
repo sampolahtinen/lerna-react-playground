@@ -10,7 +10,7 @@
   "directories": {
     "lib": "dist"
   },
-  "private": true,
+  "private": false,
   "scripts": {
     "clean": "rm -rf ./dist",
     "build:types": "tsc --emitDeclarationOnly --declaration --declarationDir dist/types",
