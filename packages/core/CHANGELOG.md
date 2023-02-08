@@ -1,5 +1,11 @@
 # @sampolahtinen/package1
 
+## 1.2.0-dev.1
+
+### Minor Changes
+
+- 9ac2b70: Add Accordion component
+
 ## 1.2.0-dev.0
 
 ### Minor Changes
