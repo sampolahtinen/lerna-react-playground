@@ -2,4 +2,4 @@
 "@sampolahtinen/core": minor
 ---
 
-Add Label component
+Add Title component
