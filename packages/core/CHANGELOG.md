@@ -1,5 +1,16 @@
 # @sampolahtinen/package1
 
+## 1.3.0
+
+### Minor Changes
+
+- b45a16f: Add Menu component
+
+### Patch Changes
+
+- Updated dependencies [b45a16f]
+  - @sampolahtinen/package2@1.1.2
+
 ## 1.2.0
 
 ### Minor Changes
