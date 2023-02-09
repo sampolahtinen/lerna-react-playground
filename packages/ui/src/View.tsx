@@ -5,6 +5,7 @@ import { Container } from "./Container";
 
 export type ViewProps = {
   className?: string;
+  classNam2?: string;
 };
 
 export const View: React.FC<ViewProps> = ({ className }) => {
