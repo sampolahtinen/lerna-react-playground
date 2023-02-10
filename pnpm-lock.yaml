@@ -48,15 +48,12 @@ importers:
 
   packages/core:
     specifiers:
-      '@sampolahtinen/package2': workspace:^1.0.0
+      '@sampolahtinen/tokens': workspace:*
     dependencies:
-      '@sampolahtinen/package2': link:../ui
+      '@sampolahtinen/tokens': link:../tokens
 
-  packages/ui:
-    specifiers:
-      '@sampolahtinen/package1': workspace:^1.0.2
-    dependencies:
-      '@sampolahtinen/package1': link:../core
+  packages/tokens:
+    specifiers: {}
 
 packages:
 
