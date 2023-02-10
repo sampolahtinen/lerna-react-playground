@@ -9,8 +9,8 @@
     "clean": "lerna run clean --parallel",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "ci:version": "pnpm changesets version",
-    "ci:publish": "pnpm changesets publish"
+    "ci:version": "pnpm changeset version",
+    "ci:publish": "pnpm changeset publish"
   },
   "workspaces": {
     "packages": [
