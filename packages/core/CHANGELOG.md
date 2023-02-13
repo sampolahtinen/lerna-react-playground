@@ -1,5 +1,11 @@
 # @sampolahtinen/core
 
+## 0.7.1
+
+### Patch Changes
+
+- bbd6960: Testing PR
+
 ## 0.4.0
 
 ### Minor Changes
