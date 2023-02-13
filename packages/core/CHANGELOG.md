@@ -1,5 +1,12 @@
 # @sampolahtinen/core
 
+## 0.7.2
+
+### Patch Changes
+
+- 8aea339: Another patch test
+- f53b370: Test again
+
 ## 0.7.1
 
 ### Patch Changes
