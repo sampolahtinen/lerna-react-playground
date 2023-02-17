@@ -1,5 +1,11 @@
 # @sampolahtinen/core
 
+## 0.7.3
+
+### Patch Changes
+
+- 2b5a112: Demo1
+
 ## 0.7.2
 
 ### Patch Changes
