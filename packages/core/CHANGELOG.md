@@ -1,5 +1,11 @@
 # @sampolahtinen/core
 
+## 0.9.0
+
+### Minor Changes
+
+- 6cd839b: Demoing automation with changeset/action
+
 ## 0.8.0
 
 ### Minor Changes
