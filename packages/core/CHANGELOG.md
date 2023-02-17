@@ -1,5 +1,11 @@
 # @sampolahtinen/core
 
+## 0.8.0
+
+### Minor Changes
+
+- 56e31d6: Demo2
+
 ## 0.7.3
 
 ### Patch Changes
